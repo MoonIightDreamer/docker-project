@@ -6,4 +6,5 @@ import ru.dgu.dockerproject.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+    public User findTopByOrderByIdDesc();
 }
