@@ -1,7 +1,7 @@
 databaseChangeLog:
 - changeSet:
       id: 1596784098744-2
-      author: myluc (generated)
+      author: said
       changes:
         - loadData:
             columns:

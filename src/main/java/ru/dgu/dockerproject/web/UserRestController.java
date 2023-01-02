@@ -17,7 +17,7 @@ public class UserRestController {
         return userRepository.findTopByOrderByIdDesc();
     }
 
-    @PostMapping("/api/users")
+    @PostMapping("/api/users/")
     @ResponseStatus(HttpStatus.CREATED)
     public User save(@RequestBody User user) {
         return userRepository.save(user);
