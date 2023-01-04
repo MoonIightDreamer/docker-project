@@ -1,16 +1,18 @@
 server:
-  port: ${PORT:8091}
+  port: ${PORT:8090}
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5434/postgres}
-    username: postgres
-    password: qqq
+    url: jdbc:postgresql://localhost:5434/users
+    username: root
+    password: 123
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: always
+    schema: classpath*:initDB.sql
+    #data: classpath*:populateDB.sql
 
-  liquibase:
-    enabled: true
-    change-log: classpath:db.changelog/db.changelog-master.yaml
-    contexts: dev
   jpa:
     hibernate:
       ddl-auto: validate
     show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect

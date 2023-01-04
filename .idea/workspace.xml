@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37d7b226-ab5e-4b40-b1c1-78ced12300d1" name="Changes" comment="v1">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/initDB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/populateDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/services/backend/docker-project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docker/services/backend/docker-project.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/services/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docker/services/frontend/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/services/frontend/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/services/frontend/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dgu/dockerproject/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dgu/dockerproject/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/1.0/create-tables.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/data/data/user.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/data/initial-data.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yaml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JmV3EHLz610yuqEYztSlRJAG3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Code/docker-project/docker/services/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "74b12b988d966f769128619a0fc8bd75",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Code\docker-project\docker\services\backend" />
+      <recent name="C:\Code\docker-project\docker\services\frontend" />
+      <recent name="C:\Code\docker-project\docker\services\postgres" />
+      <recent name="C:\Code\docker-project\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.dgu.dockerproject.security" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DockerProjectSpringBootApplication">
+    <configuration name="docker-project.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/docker-project.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DockerProjectSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="docker-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.dgu.dockerproject.DockerProjectSpringBootApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.dgu.dockerproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DockerProjectSpringBootApplication" />
+        <item itemvalue="JAR Application.docker-project.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37d7b226-ab5e-4b40-b1c1-78ced12300d1" name="Changes" comment="" />
+      <created>1672683045628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672683045628</updated>
+      <workItem from="1672683046854" duration="12346000" />
+      <workItem from="1672763180545" duration="1335000" />
+      <workItem from="1672767707129" duration="10287000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1672683860899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672683860900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1672683888823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672683888824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding user model">
+      <created>1672686799820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672686799820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding user repository">
+      <created>1672686884459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672686884459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding user rest controller">
+      <created>1672687319301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672687319301</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding spring boot application">
+      <created>1672687397746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672687397746</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding configuration">
+      <created>1672689591655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672689591655</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v1">
+      <created>1672697333517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672697333517</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="adding user model" />
+    <MESSAGE value="adding user repository" />
+    <MESSAGE value="adding user rest controller" />
+    <MESSAGE value="adding spring boot application" />
+    <MESSAGE value="adding configuration" />
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+  </component>
+</project>
