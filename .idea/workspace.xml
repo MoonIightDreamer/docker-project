@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d7b226-ab5e-4b40-b1c1-78ced12300d1" name="Changes" comment="v2 ( working version, deleted liquibase )">
+    <list default="true" id="37d7b226-ab5e-4b40-b1c1-78ced12300d1" name="Changes" comment="fix db not to drop table &amp; html update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/services/backend/docker-project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docker/services/backend/docker-project.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/services/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docker/services/frontend/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,8 @@
       <workItem from="1672683046854" duration="12346000" />
       <workItem from="1672763180545" duration="1335000" />
       <workItem from="1672767707129" duration="10586000" />
-      <workItem from="1672829846736" duration="1007000" />
+      <workItem from="1672829846736" duration="2390000" />
+      <workItem from="1673009285731" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1672683860899</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672697333517</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix db not to drop table &amp; html update">
+      <created>1672830945305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672830945305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +207,7 @@
     <MESSAGE value="adding configuration" />
     <MESSAGE value="v1" />
     <MESSAGE value="v2 ( working version, deleted liquibase )" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2 ( working version, deleted liquibase )" />
+    <MESSAGE value="fix db not to drop table &amp; html update" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix db not to drop table &amp; html update" />
   </component>
 </project>
