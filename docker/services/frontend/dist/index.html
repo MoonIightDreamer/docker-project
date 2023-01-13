@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Greeting page</title>
-
+    <title>User Greeting</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
-
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="row">
-    <label>Введите имя: &nbsp;</label>
-    <input id="name" type="text" name="name">
+<div class="main">
+    <h2>Welcome</h2>
+    <div class="row">
+        <label>Введите имя: &nbsp;</label>
+        <input id="name" type="text" name="name">
+    </div>
+    
+    <div class="row">
+        <button id="add">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Отправить
+        </button>
+    </div>
+    <p>Здравствуйте, <span id="_name"></span></p>
 </div>
-
-<div class="row">
-    <button id="add">Отправить</button>
-</div>
-
-<p></p>
 </body>
 </html>

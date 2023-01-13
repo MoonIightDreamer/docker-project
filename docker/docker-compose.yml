@@ -27,6 +27,10 @@ services:
       - 8090:8090
     depends_on:
       - postgres
+    networks:
+      default:
+      outside:
+        ipv4_address: 192.168.220.220
 
   frontend:
     build:
@@ -34,6 +38,10 @@ services:
       dockerfile: Dockerfile.development
     ports:
       - 80:80
+    depends_on:
+      - backend
+    networks:
+      - outside
   
   client:
     image: adminer
