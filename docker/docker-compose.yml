@@ -36,9 +36,7 @@ services:
       - 80:80
     depends_on:
       - backend
-    networks:
-      - outside
-  
+
   client:
     image: adminer
     restart: always
