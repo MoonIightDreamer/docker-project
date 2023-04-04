@@ -2,17 +2,20 @@ server:
   port: ${PORT:8090}
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5434/users
+    url: jdbc:postgresql://localhost:5432/users
     username: root
     password: 123
     driver-class-name: org.postgresql.Driver
-    initialization-mode: always
-    schema: classpath*:initDB.sql
     #data: classpath*:populateDB.sql
-
+  kafka:
+    consumer:
+      group-id: app.1
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath*:initDB.sql
   jpa:
     hibernate:
       ddl-auto: validate
     show-sql: true
     database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
